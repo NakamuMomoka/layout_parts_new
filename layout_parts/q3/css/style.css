@@ -2,4 +2,38 @@
 
 /* 回答はここに書いてね */
 
+.chart {
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px;
+  table-layout: fixed;
+}
+
+.chart th {
+  background-color: #24a;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+  border: 1px solid #dedede;
+  padding: 10px;
+  text-align: center;
+}
+
+.chart td {
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+  border: 1px solid #dedede;
+  vertical-align: middle;
+}
+
+.chart tr:nth-child(2n) {
+  background-color: #ecf1f2;
+}
+
+.chart tfoot:last-child {
+  border-top: 2px dashed #000;
+}
+
 /* 回答はここに書いてね */
