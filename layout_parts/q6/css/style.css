@@ -2,4 +2,75 @@
 
 /* 回答はここに書いてね */
 
-/* 回答はここに書いてね */
+.q6__box p {
+  width: 90px;
+  padding: 10px 0;
+  background-color: #e6f2ff;
+}
+
+.text-align {
+  display: inline-block;
+  text-align: center;
+}
+
+.margin {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.table {
+  text-align: center;  /*親要素に指定*/
+  display: table;
+}
+
+.tableBox {
+  display: table-cell;
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexBox {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.is-stable {
+  position: relative;
+}
+
+.position {
+  width: 110px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  margin: auto;
+}
+
+.is-flexible {
+  position: relative;
+}
+
+.position_variable {
+  width: 110px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 10px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
