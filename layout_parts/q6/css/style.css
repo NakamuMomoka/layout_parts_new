@@ -2,44 +2,49 @@
 
 /* 回答はここに書いてね */
 
-.q6__box p {
+.align-section p, .margin {
   width: 90px;
-  padding: 10px 0;
   background-color: #e6f2ff;
+  padding: 10px 0;
+  text-align: center;
 }
 
-.text-align {
+.inline {
   display: inline-block;
+}
+
+.align-section {
   text-align: center;
 }
 
 .margin {
+  margin: 0 auto;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-
-.table {
-  text-align: center;  /*親要素に指定*/
+.table{
   display: table;
 }
 
-.tableBox {
+.table-row {
+  /*table-cellはtdと同じにする table > table-row > table-cell*/
   display: table-cell;
-  display: inline-block;
-  background-color: #fff;
-  padding: 10px;
+  text-align: center;
   vertical-align: middle;
 }
 
-.flex {
+.table-cell {
+  padding: 10px;
+  background-color: #FFF;
+}
+
+.flex-section {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.flexBox {
+.flex-box {
   background-color: #fff;
   padding: 10px;
 }
@@ -56,8 +61,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 10px;
   margin: auto;
+  text-align: center;
 }
 
 .is-flexible {
@@ -66,7 +71,6 @@
 
 .position_variable {
   width: 110px;
-  height: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
