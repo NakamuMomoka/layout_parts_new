@@ -2,4 +2,98 @@
 
 /* 回答はここに書いてね */
 
+.q7__box {
+  font-size: 16px;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.float-section {
+  float: left;
+}
+
+.float-section,
+.table-cell,
+.inline-section,
+.flex-text {
+  width: 225px;
+}
+
+.float-section,
+.inline-section {
+  margin-left: 50px;
+}
+
+.float-section,
+.inline-section,
+.flex-text,
+.margin-text {
+  box-sizing: border-box;
+  
+}
+
+.float-section:first-child,
+.inline-section:first-child {
+  margin-left: 0;
+}
+
+.table {
+  display: table;
+}
+
+.table-cell,
+.inline-section {
+  vertical-align: middle;
+}
+
+.table-cell {
+  display: table-cell;
+  padding-left: 50px;
+}
+
+.table-cell:first-child {
+  padding-left: 0;
+}
+
+.inline-section,
+.inline-text,
+.margin-text {
+  display: inline-block;
+}
+
+.inline-section {
+  font-size: initial;
+}
+
+.q7__inner {
+  font-size: 0;
+}
+
+.flex-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.inline-text {
+  width: 300px;
+}
+
+/*inline 300px 間 50px = 350px - 300 = 間 50px のこと */
+
+.margin-text {
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+}
+
+.inline-text,
+.margin-text {
+  vertical-align: top;
+}
+
 /* 回答はここに書いてね */

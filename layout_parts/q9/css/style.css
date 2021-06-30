@@ -2,4 +2,40 @@
 
 /* 回答はここに書いてね */
 
+.speech {
+  width: 500px;
+  border-radius: 30px;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+  border: 5px solid #222;
+}
+
+.speech:before,
+.speech:after {
+  content: "";
+  position: absolute;
+  /*border-radius: 30 は半径30px*/
+  left: 30px;
+  border: 20px solid transparent;
+}
+
+.speech:before {
+  /*memo 20+20=40 border:5px なので-45*/
+  bottom: -45px;
+  border-top: 20px solid #222;
+  z-index: 1;
+}
+
+.speech:after {
+  bottom: -38px;
+  border-top: 20px solid #fff;
+  z-index: 2;
+}
+
+.text{
+  font-size: 16px;
+  line-height: 16px;
+}
+
 /* 回答はここに書いてね */
