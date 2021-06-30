@@ -9,22 +9,23 @@
   table-layout: fixed;
 }
 
+.chart th,
+.chart td {
+  border: 1px solid #dedede;
+  text-align: center;
+  padding: 10px;
+}
+
 .chart th {
   background-color: #24a;
   color: #fff;
   font-size: 18px;
   line-height: 26px;
-  border: 1px solid #dedede;
-  padding: 10px;
-  text-align: center;
 }
 
 .chart td {
-  padding: 10px;
-  text-align: center;
   font-size: 16px;
   line-height: 22px;
-  border: 1px solid #dedede;
   vertical-align: middle;
 }
 

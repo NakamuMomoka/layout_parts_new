@@ -2,24 +2,27 @@
 
 /* 回答はここに書いてね */
 
-.align-section p, .margin {
+.align-section-text, .margin {
   width: 90px;
   background-color: #e6f2ff;
   padding: 10px 0;
-  text-align: center;
 }
 
 .inline {
   display: inline-block;
 }
 
-.align-section {
+.align-section,
+.align-section-text,
+.margin,
+.table-row,
+.position,
+.position_variable {
   text-align: center;
 }
 
 .margin {
   margin: 0 auto;
-  text-align: center;
 }
 
 .table{
@@ -29,7 +32,6 @@
 .table-row {
   /*table-cellはtdと同じにする table > table-row > table-cell*/
   display: table-cell;
-  text-align: center;
   vertical-align: middle;
 }
 
@@ -49,7 +51,8 @@
   padding: 10px;
 }
 
-.is-stable {
+.is-stable,
+.is-flexible {
   position: relative;
 }
 
@@ -62,19 +65,13 @@
   right: 0;
   bottom: 0;
   margin: auto;
-  text-align: center;
 }
 
-.is-flexible {
-  position: relative;
-}
 
 .position_variable {
-  width: 110px;
   position: absolute;
   top: 50%;
   left: 50%;
   padding: 10px;
   transform: translate(-50%, -50%);
-  text-align: center;
 }
