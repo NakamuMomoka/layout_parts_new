@@ -1,33 +1,31 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.move {
+.main {
   margin: 0 auto;
   width: 500px;
   height: 333px;
+  /*はみ出た部分を隠す500*333*/
   overflow: hidden;
   position: relative;
   cursor: pointer;
 }
 
-.car-img, .text-cover {
+.transition-property {
   transition: 0.5s;
 }
 
-.text-cover,
-.car-img:hover + .text-cover,
-.text {
+.move:hover .text-cover {
+  bottom: 0;
   position: absolute;
   left: 0;
 }
 
-.car-img:hover + .text-cover {
-  bottom: 0;
-}
-
-.text-cover,.text {
+.text-property {
   width: 100%;
   bottom: 0;
+  position: absolute;
+  left: 0;
 }
 
 .text-cover {
@@ -37,7 +35,7 @@
   pointer-events:none;
 }
 
-.car-img:hover {
+.move:hover .car-img{
   transform: scale(1.5);
 }
 

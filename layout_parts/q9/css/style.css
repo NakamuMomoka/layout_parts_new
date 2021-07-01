@@ -24,13 +24,11 @@
   /*memo 20+20=40 border:5px なので-45*/
   bottom: -45px;
   border-top: 20px solid #222;
-  z-index: 1;
 }
 
 .speech:after {
   bottom: -38px;
   border-top: 20px solid #fff;
-  z-index: 2;
 }
 
 .text{
